@@ -19,7 +19,7 @@ print("Здравствуй,", name_user())
 
 
 def que(question_1):
-    return question_1.lower() in ("да", "нет")
+    return question_1.lower() and question_1 == "да" or question_1 == "нет")
 
 
 def que_user():
